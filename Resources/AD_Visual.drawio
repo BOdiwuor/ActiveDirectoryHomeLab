@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.2">
+  <diagram name="Page-1" id="qRrpazqYG9MgcjG0nJM9">
+    <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zkDrdELmQd5sQRVCsmSF-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;endArrow=none;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="zkDrdELmQd5sQRVCsmSF-1" target="zkDrdELmQd5sQRVCsmSF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zkDrdELmQd5sQRVCsmSF-1" value="Active Directory Server&lt;div&gt;IP:192.168.10.7&lt;/div&gt;&lt;div&gt;Splunk Universal Forwrder&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.traditional_server;" vertex="1" parent="1">
+          <mxGeometry x="120" y="370" width="45" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="zkDrdELmQd5sQRVCsmSF-2" value="Splunk Server&lt;div&gt;IP:192.168.10.10&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.traditional_server;dashPattern=1 2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="210" width="45" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="zkDrdELmQd5sQRVCsmSF-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;endArrow=none;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="zkDrdELmQd5sQRVCsmSF-3" target="zkDrdELmQd5sQRVCsmSF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zkDrdELmQd5sQRVCsmSF-3" value="Windows 10 machine&lt;div&gt;IP:DHCP&lt;/div&gt;&lt;div&gt;Splunk Universal Forwarder&lt;/div&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="620" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="zkDrdELmQd5sQRVCsmSF-4" value="Attacker Machine:&lt;div&gt;IP:192.168.10.250&lt;/div&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#b85450;fillColor=#f8cecc;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="352.5" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="zkDrdELmQd5sQRVCsmSF-5" value="" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=l2_switch;fillColor=#FAFAFA;strokeColor=#005073;" vertex="1" parent="1">
+          <mxGeometry x="310" y="350" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zkDrdELmQd5sQRVCsmSF-7" value="" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;" vertex="1" parent="1">
+          <mxGeometry x="310" y="190" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zkDrdELmQd5sQRVCsmSF-8" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zkDrdELmQd5sQRVCsmSF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zkDrdELmQd5sQRVCsmSF-3" target="zkDrdELmQd5sQRVCsmSF-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zkDrdELmQd5sQRVCsmSF-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zkDrdELmQd5sQRVCsmSF-4" target="zkDrdELmQd5sQRVCsmSF-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zkDrdELmQd5sQRVCsmSF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zkDrdELmQd5sQRVCsmSF-2" target="zkDrdELmQd5sQRVCsmSF-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zkDrdELmQd5sQRVCsmSF-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zkDrdELmQd5sQRVCsmSF-1" target="zkDrdELmQd5sQRVCsmSF-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zkDrdELmQd5sQRVCsmSF-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zkDrdELmQd5sQRVCsmSF-5" target="zkDrdELmQd5sQRVCsmSF-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zkDrdELmQd5sQRVCsmSF-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.495;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zkDrdELmQd5sQRVCsmSF-7" target="zkDrdELmQd5sQRVCsmSF-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zkDrdELmQd5sQRVCsmSF-16" value="Domain: Chateau&lt;div&gt;Network: 192.168.10.0/24&lt;/div&gt;&lt;div&gt;Splunk Server: 192.168.10.10&lt;/div&gt;&lt;div&gt;Active Directory Server: 192.168.10.7&lt;/div&gt;&lt;div&gt;Attacker Machine: 192.168.10.250&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="28" width="220" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
